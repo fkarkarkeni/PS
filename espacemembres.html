@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/mem.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+	<title>Espace Membres</title>
+</head>
+
+
+<body>
+    <!--------page face---------->
+	<!--------page face---------->
+	<section class="header" style="background-image: url('Elearning.jpg');">
+		<nav>
+			<div class="nav-links" id="navLinks">		
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a  style="color: black; font-weight: bold;" href="index3.html">Home</a></li>
+					<li><a  style="color: black; font-weight: bold;" href="About Us.html">About</a></li>
+					<li><a  style="color: black; font-weight: bold;" href="course.html">Course</a></li>
+					<li><a  style="color: black; font-weight: bold;" href="">Community</a>
+					<ul>
+						<div class="nav1">
+                        	<li><a  style="color: black; font-weight: bold;" href="https://discord.gg/fbnRddp5">Chat</a></li>
+                        	<li><a  style="color: black; font-weight: bold;" href="Help.html">Help</a></li>
+                        </div>
+                    </ul>
+                    </li>
+					<li><a  style="color: black; font-weight: bold;" href="Contact.html">Contact</a></li>
+					<li><a  style="color: black; font-weight: bold;" href="espacemembres.html">Espace Membres</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1  style="color: black; font-weight: bold;" >contactez-nous</h1>
+			
+		</div>
+	</section>
+    
+
+    <div class="container">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4"  style="color: black; font-weight: bold;" >Créez un compte !</h1>
+                            </div>
+
+                            <form class="user" action="insertion.php" method="post" >
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input  type="text" class="form-control form-control-user" name="nom" id="nom"
+                                            placeholder="First Name">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <input type="text" class="form-control form-control-user" name="prenom" id="prenom"
+                                            placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control form-control-user" name="email" id="email"
+                                        placeholder="Email Address">
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <input type="password" class="form-control form-control-user" name="mpasse"
+                                            id="exampleInputPassword" placeholder="mpasse">
+                                    </div>
+                                    
+                                </div>
+                                <input type="submit" value="Submit" style="transition-duration: 0.4s; background-color: #808080	; color: white; margin-block-start: 10px;
+                                margin-left: 223px; width: 120px;" >
+                               <!-- <a href="espacemembres.html" class="btn btn-primary btn-user btn-block">
+                                    Register Account
+                                </a> -->
+                                <hr>
+                                <a href="index.html" class="btn btn-google btn-user btn-block" >
+                                    <i style="" class="fab fa-google fa-fw"></i> S'inscrire sur Google
+                                </a>
+                                <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                    <i class="fab fa-facebook-f fa-fw"></i> S'inscrire sur Facebook
+                                </a>
+                            </form>
+                            <hr>
+                            <div class="text-center">
+                                <a class="small" href="forgot-password.html">Mot de passe oublié ?</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="espacemembres.html">Vous avez déjà un compte ? Connectez-vous !</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
